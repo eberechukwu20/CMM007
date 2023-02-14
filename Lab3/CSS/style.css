@@ -1,0 +1,149 @@
+@import "templatecolours.css";
+
+body {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* NAVIGATION BAR */
+nav > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav > ul > li {
+  float: right;
+}
+
+nav > ul > li a {
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 10px 30px;
+  text-decoration: none;
+}
+li a:hover {
+  color: #363636;
+}
+
+/* IMAGE SIZING CSS */
+#rgulogo {
+  width: 300px;
+}
+
+#banner1 {
+  width: 100%;
+}
+
+#person1 {
+  width: 200px;
+}
+
+/* TEXT STYLING */
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+p,
+h2,
+h3,
+h4,
+h5,
+a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  text-align: justify;
+}
+
+h3,
+h4,
+h5 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+#person1 {
+  width: 200px;
+  float: left;
+  padding-right: 10px;
+}
+
+/* COLOURING */
+
+#news {
+  background-color: #dbc9df;
+}
+#events {
+  background-color: #782a7e;
+}
+footer {
+  background-color: #363636;
+}
+aside p,
+h3,
+h4 {
+  color: white; /*should go somewhere else but this is quicker just now */
+}
+
+/* MARGIN FIXES */
+aside p,
+h3,
+h4 {
+  margin: 0;
+}
+aside h3 {
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+aside h4 {
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+aside p {
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+aside {
+  padding-right: 0px !important;
+  margin-top: -5px !important;
+}
+
+main {
+  padding-right: 0px !important;
+}
+
+h1 {
+  font-size: 20;
+}
+h2 {
+  font-size: 18;
+}
+h3 {
+  font-size: 16;
+}
+h4 {
+  font-size: 14;
+}
+p {
+  font-size: 13;
+}
+a {
+  font-size: 13;
+}
+footer > p {
+  width: 150px;
+  margin-left: auto;
+  nav-right: auto;
+  color: white;
+}
