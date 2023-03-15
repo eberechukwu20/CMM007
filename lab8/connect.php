@@ -1,8 +1,8 @@
 <?php
 $servername = "localhost";
-$dbname='smdb';
+$dbname='cmm007';
 $suername = "root";
-$password = "root";
+$password = "";
 
 // Create conncetion
 $db = new mysqli($servername, $suername, $password, $dbname);
